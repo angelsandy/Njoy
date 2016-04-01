@@ -1,18 +1,74 @@
-<%-- 
-    Document   : index
-    Created on : 31/03/2016, 09:06:17 PM
-    Author     : Sandy
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <p> </p>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
-</html>
+	<!DOCTYPE html>
+	<html>
+	<head >
+	<link rel = "stylesheet" type ="text/css" href="Login/CSS/LogInStyle.css">
+	<link rel="stylesheet" type="text/css" href="Logo/plantilla.css">
+	<link rel = "stylesheet" type ="text/css" href="Login/CSS/botones.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>
+	Joy Music
+	</title>
+	<link rel="icon" type="image/ico" href="Logo/favicon.ico">
+	</head>
+	<body  BACKGROUND ="Login/im/1.jpg">
+	<!------------logo------->
+	    <div id="logo2">
+	        <img src="Login/im/fondo.png" alt="" height="70" width="100%" />
+	 
+	        <div id="logo1">
+	            <img src="Logo/logo.png" alt="" height="70" width="100%" />
+	        </div>
+	        <a href="#" id="definicion">¿Que es Njoy?<a>
+	        <a href="#" id="ayuda">¿Necesitas ayuda? </a>
+	    </div>
+		<div class="button-float"><a href="#" class="button1 button-login">Log In</a></div>
+		<div class="button-float"><a href="#" class="button1 button-registro">Sign In</a></div>
+	<div class="frase"> La mÃºsica es para el alma lo que el ejercicio es para el cuerpo.</div>
+	<div class="vacio" >       
+	</div>
+	<div class="lleno" >
+	<div class="contenedor" >
+    <div class="wrap">
+        <h2 style="text-align: center; margin-top:0">Registrate Njoy</h2>
+        <hr/>
+        <form action="" name="formulario_registro"  method="post"  onsubmit="return validar()">
+            <div>
+              <table> 
+                <div class="group" >
+                    <tr>
+        
+                     <td><input type="text" name="user" id= "usuario" maxlength="30" placeholder="Usuario" onfocus="focusear()" /></td>
+                    </tr>
+					<tr>
+                 <td> <input type="email" name="user" placeholder="Correo" id="email"  maxlength="30" onfocus="focusear()"/></td>
+                  </tr>
+                     <tr>
+                       
+                         <td> <input type="password" name="user" id="pass"  maxlength="30"onfocus="focusear()" placeholder = "*****"/></td>
+                    </tr>
+                  <tr>
+                    
+                         <td> <input type="password" name="user" id="pass2"  maxlength="30" onfocus="focusear()" placeholder = "Repetir contraseÃ±a"/></td>
+                    </tr>
+					
+                    <td><label class ="checkbox-styled"> <input type="radio" name="sexo" id="hombre" value="Hombre" />
+                    </label></td>
+                       <td><input type="radio" name="sexo" id="mujer" value="Mujer" />&nbsp;&nbsp;
+                     <label for="mujer">Mujer</label></td>
+                 </tr>
+                </div>
+                    </table>
+                    <input type="checkbox" name="terminos" id="terminos" value="true"style="margin:20px 5px;" />
+                    <label for="terminos"style="margin:10px 0; font-size:15px;"> Acepto todos los terminos y condiciones establecidos</label> <!----por el diseÃ±o va abajo-->
+                </div>
+               <input type = "submit" value="Enviar" id ="envio" />
+            </div>
+        </form>
+    </div>
+</div>
+	<div class="partebaja">
+	</div>
+	<script src="Login/JavaScript/Validaciones.js"></script>
+	</body>
+	</html>

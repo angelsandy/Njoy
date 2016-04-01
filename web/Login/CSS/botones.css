@@ -1,0 +1,84 @@
+.button1 {
+border-style:solid;
+border-width:0px 0px 3px;
+box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+border-radius:6px;
+cursor:pointer;
+display:inine-block;
+font-style:normal;
+overflow: hidden;
+text-align: center;
+text-decoration:none;
+text-overflow:ellipsis;
+transition: all 200ms ease-in-out 0s;
+white-space: nowrap;
+font-family:"ChunkFive";
+font-weight:400;
+font-size:20px;
+position:absolute;
+padding: 10px 39px 9px;
+top:15px;
+color:#F5F5F5;
+}
+.button-login
+{
+	border-color:#BF4A67;
+	background-color:#E6567A;
+}
+.button-submit
+{
+	border-color:#2e2f30;
+	background-color:#48494a;
+	top:480px;
+	right:250px;
+}
+.button-registro
+{
+	border-color:#2e2f30;
+	background-color:#48494a;
+	margin-left:-170px;
+}
+.button-login:active,.button-login:hover
+{
+  border-color:#BF4A67;
+  background-color:#e34069;
+}
+.button-registro:active,.button-registro:hover
+{
+	border-color:#2e2f30;
+	background-color:#2f3030;
+}
+
+#envio
+{
+	margin: 10px auto;
+	width:360px;
+	height:40px;
+	padding:0;
+	display:block;
+	background: rgb(229,87,123);
+	border:none;
+	cursor: pointer;
+	font-family: "ChunkFive";
+	color:#F5F5F5;
+    text-align:center;
+	font-size: 20px;
+}
+
+input[type="submit"]:active 
+{
+background-position: 0 209px;
+text-shadow: 0px 2px 2px #4d4d4d;
+-webkit-box-shadow: 0px 0px 0px #777;
+-moz-box-shadow: 0px 0px 0px #777;
+box-shadow: 0px 0px 0px #777;
+}
+.button-float
+{
+	float:right;
+	width:22%;
+	padding-top:0px;
+	text-align:center;
+}
+
+
