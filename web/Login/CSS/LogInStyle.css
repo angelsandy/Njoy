@@ -123,7 +123,7 @@ input[type="checkbox"]{
 input[type="text"],input[type="email"],input[type="password"],input[type="tel"]
 {
 	background-color:rgba(42,42,42,0.5);
-    color: #F5F5F5;
+        color: #F5F5F5;
 	width:370px;
 	border-radius:3px;
 	padding:5px 10px;
@@ -147,7 +147,7 @@ input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover,
 .wrap {
     width: 65%;
     max-width: 500px;
-    padding: 15px;
+    padding:15px;
     margin: 0 auto;
     color: white;
     background:rgba(27,60,62,0.92);
@@ -155,8 +155,8 @@ input[type="text"]:hover,input[type="email"]:hover,input[type="password"]:hover,
     -moz-box-sizing: border-box;
     box-shadow: 0px 0px 5px grey;
     margin-top:50px;
-	height:420px;
-	font-weight:40px;
+    height:420px; 
+    font-weight:40px;
 }
 .partebaja {
 	float:left; 
