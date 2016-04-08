@@ -24,7 +24,7 @@
 	    </div>
 		<div class="button-float"><a href="#" class="button1 button-login">Log In</a></div>
 		<div class="button-float"><a href="#" class="button1 button-registro">Sign In</a></div>
-	<div class="frase"> La mÃºsica es para el alma lo que el ejercicio es para el cuerpo.</div>
+	<div class="frase"> La musica es para el alma lo que el ejercicio es para el cuerpo.</div>
 	<div class="vacio" >       
 	</div>
 	<div class="lleno" >
@@ -35,31 +35,26 @@
         <form action="" name="formulario_registro"  method="post"  onsubmit="return validar()">
             <div>
               <table> 
-                <div class="group" >
                     <tr>
-        
                      <td><input type="text" name="user" id= "usuario" maxlength="30" placeholder="Usuario" onfocus="focusear()" /></td>
                     </tr>
-					<tr>
+                    <tr>
                  <td> <input type="email" name="user" placeholder="Correo" id="email"  maxlength="30" onfocus="focusear()"/></td>
                   </tr>
                      <tr>
-                       
                          <td> <input type="password" name="user" id="pass"  maxlength="30"onfocus="focusear()" placeholder = "*****"/></td>
                     </tr>
                   <tr>
-                    
-                         <td> <input type="password" name="user" id="pass2"  maxlength="30" onfocus="focusear()" placeholder = "Repetir contraseÃ±a"/></td>
-                    </tr>
-					
-                    <td><label class ="checkbox-styled"> <input type="radio" name="sexo" id="hombre" value="Hombre" />
-                    </label></td>
-                       <td><input type="radio" name="sexo" id="mujer" value="Mujer" />&nbsp;&nbsp;
+                         <td> <input type="password" name="user" id="pass2"  maxlength="30" onfocus="focusear()" placeholder = "Repetir contraseña"/></td>
+		     </tr>
+                     <tr>
+                    <td><input type="radio" name="sexo" id="hombre" value="Hombre" />
+                    <label for="hombre">Hombre</label>
+                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="sexo" id="mujer" value="Mujer" />
                      <label for="mujer">Mujer</label></td>
                  </tr>
-                </div>
                     </table>
-                    <input type="checkbox" name="terminos" id="terminos" value="true"style="margin:20px 5px;" />
+                    <input type="checkbox" name="terminos" id="terminos" value="true"style="margin-top:20px; margin-bottom:5px;" />
                     <label for="terminos"style="margin:10px 0; font-size:15px;"> Acepto todos los terminos y condiciones establecidos</label> <!----por el diseÃ±o va abajo-->
                 </div>
                <input type = "submit" value="Enviar" id ="envio" />
