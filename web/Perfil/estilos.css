@@ -1,0 +1,362 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+h1{color:rgb(229,117,123);}
+body
+{
+	background-color:#2A2A2A !important;
+}
+#fotoperfil
+{
+	position:relative;
+	margin-left:0px;
+	margin-top:-50px;
+}
+.contenedorBoton{
+   height:25px;
+   width:25px;
+   margin-left: auto;
+   margin-right: 10px;
+   display:block;
+   background:#ffffff;
+   border: 0px #ffffff;
+   border-radius: 0.0em;
+   margin-top:0px;
+   margin-bottom: 10px;
+}
+.contenedorBoton a{
+  margin-top:6px;
+  margin-left:5px;
+  text-decoration: none;   
+}
+
+.Musiccard {
+    background:#FFF;
+    border:1px solid #AAA;
+    padding:0px;
+    margin:0px 10px;
+    overflow:hidden;
+    width:25%;
+    height:180px;
+}
+
+.Musiccard div:nth-of-type(2){
+    margin:0px;
+    padding:0px;
+    font-family:"Aller";
+    font-size:10pt;
+    text-align: center;
+}
+
+.Musiccard span:nth-of-type(1){
+    margin-left:0px;
+    text-align:center;
+    font-family:"Aller";
+    font-size:9.5pt;
+    margin-bottom:10px;
+    position: absolute;
+}
+
+.Musiccard span:nth-of-type(2){
+    font-family:"Aller Italic";
+    font-size:9pt;
+    color:darkgrey;
+    float:right;
+    margin-right:10px;
+}
+
+.contenedorLateralIzquierda{
+    height:30vh;
+	max-height:30vh;
+    width:30vh;
+    background: white;
+    position: absolute;
+    margin-left:84%;
+    margin-top:27.7%;
+    
+}
+
+.card-image {
+    height:80%;
+    padding:0px;
+    margin:0px;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+    overflow:hidden;
+}
+
+.image1 {
+   background-image:url('http://farm6.staticflickr.com/5323/9902848784_cbd10ba3ca_c.jpg');
+}
+
+.card-image video{
+    opacity: 0.5;
+}
+.divMusica{
+    margin-left: 5px;
+}
+.contenedorLateral{
+	height:80vh;
+	max-height:90vh;
+	width:15%;
+	max-width:190px;
+	background:#FFFFFF;
+	margin-top:30px;
+	float:left;
+    margin-left:20px;
+  
+}
+.contenedorCentral{
+    height:80vh;
+	max-height:90vh;
+    margin-top: 30px;
+    margin-right:276px;
+    width:65%;
+    max-width:65%;
+	background:#FFFFFF;
+    float:right;
+}
+.contenedorMultimedia{
+    float:left;
+    width:100%;  
+    height:80px;
+    margin:0;
+}
+.contenedorCentral h3{
+    margin: 15px;
+    font-family: "Aller Bold Italic";
+}
+.contenedorCentral hr{
+    width:95%;
+    margin-top:5px;
+    margin-left:15px;
+}
+.contenedorLateral img{
+    display: block;
+    padding-top:10px;
+    padding-bottom:2px;
+    padding-left: 10px;
+    padding-right:10px;
+    margin: 0 auto;
+}
+
+.wrap1
+{
+    width: 70%;
+    max-width: 500px;
+    padding: 40px;
+    margin: auto;
+    color: white;
+     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background:rgba(22,160,133,0.4);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: 0px 0px 5px grey;
+    margin-top:100px;
+}
+
+#elementosmenores{
+    font-size: 10pt;
+    font-family: "Aller"!important;
+    color:darkgrey;
+}
+
+#elementosmenoresmenores{
+    font-size: 8pt;
+    font-family: "Aller Italic"!important;
+    color:darkgrey;
+}
+#elementosmedianos{
+    font-size: 11pt;
+    font-family: "Aller"!important;
+    color:black;
+}
+#Titulo
+{
+	font-size:30px;
+	margin-left:-230px;
+	margin-top:-30px;
+	color:#2A2A2A;
+   
+}
+
+#buscar{
+    background-color:rgba(184,197,196,0.92);
+    color: #F5F5F5;
+	border-radius:3px;
+	font-size:13px;
+	border:none;
+    height:30px;
+}
+#primera{
+    margin-top:-13px;
+}
+.group{
+    margin-top:0px;
+    font-family:"Aller Bold";
+    padding-left:14px;
+}
+
+#banner
+{
+	position:absolute;
+	margin-left:80px;
+	margin-top:-150px;
+}
+.wrap {
+    width: 70%;
+    max-width: 500px;
+    padding: 40px;
+    margin: auto;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background:rgba(22,160,133,0.4);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: 0px 0px 5px grey;
+    margin-top:100px;
+}
+
+header{
+    margin-top:0px;
+    width:100%;
+    overflow:hidden;
+    height:70px;
+    position: relative;
+	background:#138a72;;
+    font-family: "Aller Light"!important;
+}
+
+#logo img:first-child{
+    position:absolute;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+#logo img:nth-child(2){
+    position:absolute;
+	margin-left:1430px;
+    margin-top: 30px;
+}
+#logo img:nth-child(3){
+	position:absolute;
+	margin-left:1360px;
+	margin-top:35px;
+}
+#logo img:last-child{
+	position:absolute;
+	margin-left:1310px;
+	margin-top:35px;
+}
+nav{
+    top:0px;
+    position: absolute;
+    left:0;
+    right:0;
+	margin:10px auto;
+	max-width:1000px;
+	width:100%;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav>ul{
+    display:table;
+	width:100%;
+	background:#2A2A2A;
+	position:relative;
+}
+
+nav > ul li{
+    display:table-cell;
+}
+
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+ 
+nav > ul > li > ul {
+		display:block;
+	position:absolute;
+	background:#44B39D;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+nav > ul li a {
+    color:#ffffff !important;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > ul > li a:hover {
+	background:#ECECEC;
+}
+nav > ul > li > a span {
+	background:#FB6868;
+		display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-100px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+ 
+nav > ul > li > a:hover > span {
+	top:0;
+}
+ 
+/*Colores*/
+nav ul li a .inicio {
+	background:#ECECEC;
+}
+ 
+nav ul li a .musica {
+	background:#E6567A;
+}
+ 
+nav ul li a .perfil {
+	background:#5da5a2;
+}
+ 
+nav ul li a .amigos {
+	background:#E6567A;
+}
+ 
+nav ul li a .ventas {
+	background:#5da5a2;
+}
+nav ul li a .listaReproduccion {
+	background:#E6567A;
+}

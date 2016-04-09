@@ -30,7 +30,7 @@
 	<div class="lleno" >
 	<div class="contenedor" >
     <div class="wrap">
-        <h2 style="text-align: center; margin-top:0">Registrate Njoy</h2>
+        <h2 style="text-align: center; margin-top:0">Njoy Login</h2>
         <hr/>
         <form action="ServletIniciarSesion" name="formulario_registro"  method="post"  onsubmit="return validar()">
             <div>
@@ -45,7 +45,7 @@
                     <input type="checkbox" name="terminos" id="terminos" value="true"style="margin-top:20px; margin-bottom:5px;" />
                     <label for="terminos"style="margin:10px 0; font-size:15px;">Keep me log in</label> <!----por el diseÃ±o va abajo-->
                 </div>
-               <input type = "submit" value="Enviar" id ="envio" />
+               <input type = "submit" value="Log Me" id ="envio" />
             </div>
               <%if(request.getAttribute("error")!=null){%>
     ${error}
