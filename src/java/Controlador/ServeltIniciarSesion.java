@@ -32,7 +32,7 @@ public class ServeltIniciarSesion extends HttpServlet {
         DaoUsuario user = new DaoUsuario();
 
         if (user.validar(usuario, clave)) {
-            request.getRequestDispatcher("mainpage.jsp").forward(request, response);
+            request.getRequestDispatcher("perfil.jsp").forward(request, response);
 
         } else {
             request.setAttribute("error", "<script>alert('USUARIO o CONTRASENA INCORRECTA')</script>");
