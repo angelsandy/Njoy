@@ -36,7 +36,7 @@
             <div>
               <table> 
                     <tr>
-                     <td><input type="text" name="user" id= "usuario" maxlength="30" placeholder="Usuario" onfocus="focusear()" /></td>
+                     <td><input type="text" name="usuario" id= "user" maxlength="30" placeholder="Usuario" onfocus="focusear()" /></td>
                     </tr>
                      <tr>
                          <td> <input type="password" name="claveusuario" id="pass"  maxlength="30"onfocus="focusear()" placeholder = "*****"/></td>
