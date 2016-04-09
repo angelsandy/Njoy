@@ -38,24 +38,12 @@
                     <tr>
                      <td><input type="text" name="user" id= "usuario" maxlength="30" placeholder="Usuario" onfocus="focusear()" /></td>
                     </tr>
-                    <tr>
-                 <td> <input type="email" name="user" placeholder="Correo" id="email"  maxlength="30" onfocus="focusear()"/></td>
-                  </tr>
                      <tr>
                          <td> <input type="password" name="claveusuario" id="pass"  maxlength="30"onfocus="focusear()" placeholder = "*****"/></td>
                     </tr>
-                  <tr>
-                         <td> <input type="password" name="user" id="pass2"  maxlength="30" onfocus="focusear()" placeholder = "Repetir contraseña"/></td>
-		     </tr>
-                     <tr>
-                    <td><input type="radio" name="sexo" id="hombre" value="Hombre" />
-                    <label for="hombre">Hombre</label>
-                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="radio" name="sexo" id="mujer" value="Mujer" />
-                     <label for="mujer">Mujer</label></td>
-                 </tr>
                     </table>
                     <input type="checkbox" name="terminos" id="terminos" value="true"style="margin-top:20px; margin-bottom:5px;" />
-                    <label for="terminos"style="margin:10px 0; font-size:15px;"> Acepto todos los terminos y condiciones establecidos</label> <!----por el diseÃ±o va abajo-->
+                    <label for="terminos"style="margin:10px 0; font-size:15px;">Keep me log in</label> <!----por el diseÃ±o va abajo-->
                 </div>
                <input type = "submit" value="Enviar" id ="envio" />
             </div>
