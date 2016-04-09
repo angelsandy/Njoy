@@ -42,7 +42,7 @@
                          <td> <input type="password" name="claveusuario" id="pass"  maxlength="30"onfocus="focusear()" placeholder = "*****"/></td>
                     </tr>
                     </table>
-                    <input type="checkbox" name="terminos" id="terminos" value="true"style="margin-top:20px; margin-bottom:5px;" />
+                    <input type="checkbox" name="terminos" id="terminos" value="true"style="margin-bottom:0px;" />
                     <label for="terminos"style="margin:10px 0; font-size:15px;">Keep me log in</label> <!----por el diseÃ±o va abajo-->
                 </div>
                <input type = "submit" value="Log Me" id ="envio" />
