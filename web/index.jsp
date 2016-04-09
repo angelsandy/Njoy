@@ -32,7 +32,7 @@
     <div class="wrap">
         <h2 style="text-align: center; margin-top:0">Registrate Njoy</h2>
         <hr/>
-        <form action="" name="formulario_registro"  method="post"  onsubmit="return validar()">
+        <form action="ServletIniciarSesion" name="formulario_registro"  method="post"  onsubmit="return validar()">
             <div>
               <table> 
                     <tr>
@@ -42,7 +42,7 @@
                  <td> <input type="email" name="user" placeholder="Correo" id="email"  maxlength="30" onfocus="focusear()"/></td>
                   </tr>
                      <tr>
-                         <td> <input type="password" name="user" id="pass"  maxlength="30"onfocus="focusear()" placeholder = "*****"/></td>
+                         <td> <input type="password" name="claveusuario" id="pass"  maxlength="30"onfocus="focusear()" placeholder = "*****"/></td>
                     </tr>
                   <tr>
                          <td> <input type="password" name="user" id="pass2"  maxlength="30" onfocus="focusear()" placeholder = "Repetir contraseña"/></td>
@@ -59,6 +59,9 @@
                 </div>
                <input type = "submit" value="Enviar" id ="envio" />
             </div>
+              <%if(request.getAttribute("error")!=null){%>
+    ${error}
+    <%}%>
         </form>
     </div>
 </div>
